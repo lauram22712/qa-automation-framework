@@ -9,6 +9,7 @@ Cucumber — escritura de escenarios en Gherkin (BDD), legible para perfiles no 
 TypeScript — tipado estático para reducir errores en tiempo de escritura
 Allure Reporter — reportes visuales de ejecución con capturas de pantalla en fallos
 Arquitectura
+
 test/
 ├── features/              # Escenarios en Gherkin (.feature)
 │   ├── login.feature       # @regression, con @smoke en el caso feliz
@@ -26,6 +27,7 @@ test/
 
 .github/workflows/
 └── e2e-tests.yml           # Pipeline de CI: corre los tests en cada push/PR
+
 ¿Por qué Page Object Model?
 Mantenibilidad: si cambia un selector en la UI, se actualiza en un solo lugar (el Page Object), no en cada test.
 Legibilidad: los steps de Cucumber describen qué hace el usuario, no cómo interactúa con el DOM.
