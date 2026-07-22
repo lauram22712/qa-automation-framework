@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2021",
+    "outDir": "./dist",
+    "types": ["node", "@wdio/globals/types", "@wdio/cucumber-framework"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./test/**/*.ts", "./wdio.conf.ts"]
+}
