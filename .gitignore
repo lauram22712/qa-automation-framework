@@ -1,0 +1,8 @@
+cat > .gitignore << 'EOF'
+node_modules/
+allure-results/
+allure-report/
+dist/
+*.log
+.DS_Store
+EOF
